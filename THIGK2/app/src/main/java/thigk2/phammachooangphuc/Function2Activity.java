@@ -14,7 +14,7 @@ public class Function2Activity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.listCities);
         String[] cities = {"Hà Nội", "Hồ Chí Minh", "Đà Nẵng", "Hải Phòng",
-                "Cần Thơ", "Nghệ An", "Huế", "Họ và Tên", "Khánh Hòa", "Bình Dương"};
+                "Cần Thơ", "Nghệ An", "Huế", "Phạm Mạc Hoàng Phúc", "Khánh Hòa", "Bình Dương"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, cities);

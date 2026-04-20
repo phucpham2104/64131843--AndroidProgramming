@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Phạm Mạc Hoàng Phúc - 64231843 - 64.HTTT"
+        android:text="Phạm Mạc Hoàng Phúc - 64131843 - 64.HTTT"
         android:textColor="@color/text_sub"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
