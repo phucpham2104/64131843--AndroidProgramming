@@ -1,26 +1,49 @@
 package thigk2.phammachooangphuc;
 
-
 import android.os.Bundle;
-import android.widget.ListView;
+
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 public class Function3Activity extends AppCompatActivity {
+
+    RecyclerView recyclerTour;
+    ArrayList<Tour> list;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_function3);
 
-        ListView listView = findViewById(R.id.listTour);
-        String[] tours = {
-                "Vinpearl Land - Đảo Hòn Tre",
-                "Tháp Bà Ponagar - Núi Cù Hin",
-                "Bãi Dài - Cam Ranh",
-                "Chùa Long Sơn - Phường Phương Sơn",
-                "Hòn Chồng - Vĩnh Phước"
-        };
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1, tours);
-        listView.setAdapter(adapter);
+        recyclerTour = findViewById(R.id.recyclerTour);
+        recyclerTour.setLayoutManager(new LinearLayoutManager(this));
+
+        list = new ArrayList<>();
+
+        list.add(new Tour(R.drawable.vinpearl,
+                "Vinpearl Land",
+                "Đảo Hòn Tre, Nha Trang"));
+
+        list.add(new Tour(R.drawable.thapba,
+                "Tháp Bà Ponagar",
+                "2 Tháng 4, Vĩnh Phước"));
+
+        list.add(new Tour(R.drawable.bai_dai,
+                "Bãi Dài",
+                "Cam Ranh, Khánh Hòa"));
+
+        list.add(new Tour(R.drawable.chua_long_son,
+                "Chùa Long Sơn",
+                "22 Đường 23/10, Nha Trang"));
+
+        list.add(new Tour(R.drawable.hon_chong,
+                "Hòn Chồng",
+                "Vĩnh Phước, Nha Trang"));
+
+        TourAdapter adapter = new TourAdapter(list);
+        recyclerTour.setAdapter(adapter);
     }
 }
