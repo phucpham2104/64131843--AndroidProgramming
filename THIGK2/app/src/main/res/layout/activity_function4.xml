@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Họ và tên: Phạm Mạc Hoàng Phúc&#10;MSSV: 64231843&#10;Lớp: 64.HTTT&#10;Sở thích: Lập trình, nghe nhạc&#10;Sở trường: Android, Java"
+            android:text="Họ và tên: Phạm Mạc Hoàng Phúc&#10;MSSV: 64131843&#10;Lớp: 64.HTTT&#10;"
             android:textColor="@color/text_main"
             android:textSize="18sp" />
     </LinearLayout>

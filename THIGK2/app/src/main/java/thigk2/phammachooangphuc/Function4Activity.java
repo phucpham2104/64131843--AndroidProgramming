@@ -13,9 +13,8 @@ public class Function4Activity extends AppCompatActivity {
 
         TextView txtInfo = findViewById(R.id.txtInfo);
         txtInfo.setText("Họ và tên: Pham Mac Hoang Phuc\n" +
-                "MSSV: 64231843\n" +
-                "Lớp: 64.HTTT\n" +
-                "Sở thích: ...\n" +
-                "Trường: ...");
+                "MSSV: 64131843\n" +
+                "Lớp: 64.HTTT\n" 
+                );
     }
 }
