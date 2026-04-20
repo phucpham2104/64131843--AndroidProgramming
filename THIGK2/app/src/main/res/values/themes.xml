@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.THIGK2" parent="Base.Theme.THIGK2" />
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryVariant">@color/primary_dark</item>
+    <item name="colorSecondary">@color/accent</item>
 </resources>
