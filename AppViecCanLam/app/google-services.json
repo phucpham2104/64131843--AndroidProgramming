@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031539923179",
+    "project_id": "vclapp-aed20",
+    "storage_bucket": "vclapp-aed20.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031539923179:android:a5b56c2e8c800f934146ae",
+        "android_client_info": {
+          "package_name": "phuc.edu.appvieccanlam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgLUZIFUPvyvldeRPsHY1x87Ks87Eteg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
